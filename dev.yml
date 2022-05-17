@@ -1,0 +1,78 @@
+docs:
+  input: raw_docs
+  op: docs
+
+pdoc:
+  project: smp
+  op: docs
+
+mako:
+  gen:
+    path:
+      - changelog.mako
+    glob:
+      - docs/**/**/index.mako
+
+md_vars:
+  global:
+    project_name: smp
+    repo_name: shonen-magazine-pocket
+    formal_name: SMP scraper
+    site: smp.hyaku.download
+    scripts_url: smp.hyaku.download/scripts
+    organization: hyaku-dl
+    user: whinee
+    codacy_id: 385ceb2d55424256a93f9ad6f8007f91
+    dc_acc: whi_ne | whinyaan.xyz#5135
+    dc_link: https://discord.com/users/867696753434951732
+    dc_inv: JbAtUxGcJZ
+    mail_acc: whinyaan@pm.me
+    mail_link: mailto:whinyaan@pm.me
+    desc: |-
+      A Basic Shonen Magazine Pocket Scraper
+    long_desc: |-
+      A no-nonsense, simple and easy to use scraper for <a target="_blank" href="https://pocket.shonenmagazine.com">Shonen Magazine Pocket Scraper</a>
+
+  local:
+    README:
+      title: smp
+
+rules:
+  del:
+  repl:
+    'src="https://${site}/assets':
+      - 'src="./assets'
+    "src='https://${site}/assets":
+      - "src='./assets"
+    "](https://${site}/assets":
+      - "](./assets"
+
+requirements:
+  dev: dev_req.txt
+  prod: requirements.txt
+
+env:
+  dev:
+    req:
+      - prod
+      - dev
+
+license:
+  year: 2022
+  type: MIT
+  cholder:
+    whi_ne:
+      user: whinee
+      projects:
+        hyaku-dl:
+          hyaku:
+            year: 2022
+            platform: Github
+        MangDL:
+          MangDL:
+            year: 2021-2022
+            platform: Github
+        Pirate-Kings:
+          YAMHL:
+            year: 2022
+            platform: Github

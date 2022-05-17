@@ -1,0 +1,3 @@
+#! /bin/sh
+curl -L -o smp.AppImage https://github.com/hyaku-dl/shonen-magazine-pocket/releases/download/0.0.0.0-alpha.1/smp-linux-x86_64.AppImage
+chmod +x ./smp.AppImage

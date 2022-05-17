@@ -1,0 +1,18 @@
+#! /bin/sh
+curl -L -o smp.AppImage https://github.com/hyaku-dl/shonen-magazine-pocket/releases/download/0.0.0.0-alpha.1/smp-linux-x86_64.AppImage
+chmod +x ./smp.AppImage
+./smp.AppImage --appimage-extract
+rm -rf ./smp.AppImage
+rm -rf /usr/share/smp
+mv squashfs-root /usr/share/smp
+echo '#! /bin/sh
+"exec" "/usr/share/smp/usr/bin/python3.10" "$0" "$@"
+# -*- coding: utf-8 -*-
+import re
+import sys
+from smp.cli import cli
+if __name__ == "__main__":
+  sys.argv[0] = re.sub("r(-script\.pyw|\.exe)?$", "", sys.argv[0])
+  sys.exit(cli())' > /usr/bin/smp
+chmod +x /usr/bin/smp
+rm -rf linux-install.sh
