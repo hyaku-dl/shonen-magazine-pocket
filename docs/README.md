@@ -84,14 +84,16 @@ Follow [this link](https://smp.hyaku.download/installation) to install SMP scrap
 
 Before using this project, it is recommended to visit [license](license) and [terms of usage & disclaimer](tou_disc) for the terms of usage, disclaimer, and legals.
 
+For help, run the following command:
+
 ```bash
 smp -h
 ```
 
-Cutting:
+Downloading:
 
 ```bash
-smp cut [OPTIONS]
+smp dl <url> [OPTIONS]
 ```
 
 For programmatic use, visit the documentation: [smp.hyaku.download/docs](https://smp.hyaku.download/docs/0/0)
