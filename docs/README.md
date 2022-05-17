@@ -41,7 +41,7 @@
 ---
 
 <h4 align="center">
-A no-nonsense, simple and easy to use scraper for <a target="_blank" href="https://pocket.shonenmagazine.com">Shonen Magazine Pocket Scraper</a>
+A no-nonsense, simple and easy to use scraper for <a target="_blank" href="https://pocket.shonenmagazine.com">Shonen Magazine Pocket</a>
 </h4>
 
 ---

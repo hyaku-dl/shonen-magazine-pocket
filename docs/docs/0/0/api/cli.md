@@ -5,7 +5,7 @@ Functions
 ---------
 
     
-`cao(group: <function group at 0x7f537d5e35b0>, cmd: str) ‑> List[Callable[[Callable[[Any], Any]], Callable[[Any], Any]]]`
+`cao(group: <function group at 0x7fe3a796f5b0>, cmd: str) ‑> List[Callable[[Callable[[Any], Any]], Callable[[Any], Any]]]`
 :   Retruns wrappers for a click command evaluated from the given arguments.
     
     Args:
@@ -16,7 +16,7 @@ Functions
         List[Callable[[Callable[[Any], Any]], Callable[[Any], Any]]]: The wrappers.
 
     
-`command(group: <function group at 0x7f537d5e35b0>) ‑> Callable[[Callable[[Any], Any]], Callable[[Any], Any]]`
+`command(group: <function group at 0x7fe3a796f5b0>) ‑> Callable[[Callable[[Any], Any]], Callable[[Any], Any]]`
 :   Wrapper for click commands.
     
     Args:

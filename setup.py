@@ -6,7 +6,7 @@ setup(
     author_email="whinyaan@pm.me",
     version='0.0.0.0-alpha.1',
     description='A Basic Shonen Magazine Pocket Scraper',
-    long_description='''A no-nonsense, simple and easy to use scraper for <a target="_blank" href="https://pocket.shonenmagazine.com">Shonen Magazine Pocket Scraper</a>.
+    long_description='''A no-nonsense, simple and easy to use scraper for <a target="_blank" href="https://pocket.shonenmagazine.com">Shonen Magazine Pocket</a>.
     For full information, visit https://smp.hyaku.download''',
     long_description_content_type="text/markdown",
     url="https://github.com/hyaku-dl/shonen-magazine-pocket",
