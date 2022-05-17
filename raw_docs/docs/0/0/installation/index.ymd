@@ -1,0 +1,15 @@
+---
+title: Installation
+---
+
+## [Installable](installable/index.md)
+
+The most recommended method of installation. Used when you want to install ${formal_name} to your machine.
+
+## [Portable](portable/index.md)
+
+Used when you want to run ${formal_name} on your machine without actually installing it.
+
+## [Programmatic](programmatic/index.md)
+
+Used when you want to use ${formal_name} programmatically. You can also use ${formal_name} CLI when installed this way.

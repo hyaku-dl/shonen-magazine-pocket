@@ -1,92 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://ura.hyaku.download/</loc>
+         <loc>https://smp.hyaku.download/</loc>
          <lastmod>2022-05-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ura.hyaku.download/changelog/</loc>
+         <loc>https://smp.hyaku.download/changelog/</loc>
          <lastmod>2022-05-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ura.hyaku.download/license/</loc>
+         <loc>https://smp.hyaku.download/license/</loc>
          <lastmod>2022-05-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ura.hyaku.download/notes%20to%20self/</loc>
+         <loc>https://smp.hyaku.download/notes%20to%20self/</loc>
          <lastmod>2022-05-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ura.hyaku.download/notes/</loc>
+         <loc>https://smp.hyaku.download/notes/</loc>
          <lastmod>2022-05-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ura.hyaku.download/docs/0/0/</loc>
+         <loc>https://smp.hyaku.download/docs/0/0/</loc>
          <lastmod>2022-05-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ura.hyaku.download/docs/0/0/config/</loc>
+         <loc>https://smp.hyaku.download/docs/0/0/config/</loc>
          <lastmod>2022-05-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ura.hyaku.download/docs/0/0/setup/</loc>
+         <loc>https://smp.hyaku.download/docs/0/0/setup/</loc>
          <lastmod>2022-05-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ura.hyaku.download/docs/0/0/structure/</loc>
+         <loc>https://smp.hyaku.download/docs/0/0/structure/</loc>
          <lastmod>2022-05-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ura.hyaku.download/docs/0/0/api/</loc>
+         <loc>https://smp.hyaku.download/docs/0/0/api/</loc>
          <lastmod>2022-05-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ura.hyaku.download/docs/0/0/api/base/</loc>
+         <loc>https://smp.hyaku.download/docs/0/0/api/base/</loc>
          <lastmod>2022-05-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ura.hyaku.download/docs/0/0/api/cli/</loc>
+         <loc>https://smp.hyaku.download/docs/0/0/api/cli/</loc>
          <lastmod>2022-05-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ura.hyaku.download/docs/0/0/api/download/</loc>
+         <loc>https://smp.hyaku.download/docs/0/0/api/download/</loc>
          <lastmod>2022-05-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ura.hyaku.download/docs/0/0/api/globals/</loc>
+         <loc>https://smp.hyaku.download/docs/0/0/api/globals/</loc>
          <lastmod>2022-05-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ura.hyaku.download/docs/0/0/api/init/</loc>
+         <loc>https://smp.hyaku.download/docs/0/0/api/init/</loc>
          <lastmod>2022-05-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ura.hyaku.download/docs/0/0/api/settings/</loc>
+         <loc>https://smp.hyaku.download/docs/0/0/api/settings/</loc>
          <lastmod>2022-05-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ura.hyaku.download/docs/0/0/api/style/</loc>
+         <loc>https://smp.hyaku.download/docs/0/0/api/style/</loc>
          <lastmod>2022-05-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ura.hyaku.download/docs/0/0/api/utils/</loc>
+         <loc>https://smp.hyaku.download/docs/0/0/api/utils/</loc>
+         <lastmod>2022-05-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://smp.hyaku.download/docs/0/0/installation/</loc>
+         <lastmod>2022-05-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://smp.hyaku.download/docs/0/0/installation/installable/</loc>
+         <lastmod>2022-05-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://smp.hyaku.download/docs/0/0/installation/installable/windows/</loc>
+         <lastmod>2022-05-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://smp.hyaku.download/docs/0/0/installation/installable/linux/</loc>
+         <lastmod>2022-05-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://smp.hyaku.download/docs/0/0/installation/installable/linux/arch/</loc>
+         <lastmod>2022-05-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://smp.hyaku.download/docs/0/0/installation/installable/linux/debian/</loc>
+         <lastmod>2022-05-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://smp.hyaku.download/docs/0/0/installation/portable/</loc>
+         <lastmod>2022-05-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://smp.hyaku.download/docs/0/0/installation/portable/windows/</loc>
+         <lastmod>2022-05-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://smp.hyaku.download/docs/0/0/installation/portable/linux/</loc>
+         <lastmod>2022-05-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://smp.hyaku.download/docs/0/0/installation/portable/linux/arch/</loc>
+         <lastmod>2022-05-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://smp.hyaku.download/docs/0/0/installation/portable/linux/debian/</loc>
+         <lastmod>2022-05-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://smp.hyaku.download/docs/0/0/installation/programmatic/</loc>
+         <lastmod>2022-05-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://smp.hyaku.download/docs/0/0/installation/programmatic/macos/</loc>
+         <lastmod>2022-05-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://smp.hyaku.download/docs/0/0/installation/programmatic/windows/</loc>
+         <lastmod>2022-05-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://smp.hyaku.download/docs/0/0/installation/programmatic/linux/</loc>
+         <lastmod>2022-05-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://smp.hyaku.download/docs/0/0/installation/programmatic/linux/arch/</loc>
+         <lastmod>2022-05-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://smp.hyaku.download/docs/0/0/installation/programmatic/linux/debian/</loc>
          <lastmod>2022-05-17</lastmod>
          <changefreq>daily</changefreq>
     </url>

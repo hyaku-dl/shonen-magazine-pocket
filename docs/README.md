@@ -64,7 +64,7 @@ For the terms of usage and legals, visit [LICENSE](license) and [terms of usage 
 
 Since people are looking for the download first, here you go:
 
-Follow [this link](https://smp.hyaku.download/installation) to install smp in your machine.
+Follow [this link](https://smp.hyaku.download/installation) to install SMP scraper on your machine.
 
 ## **Features**
 
@@ -79,38 +79,19 @@ Follow [this link](https://smp.hyaku.download/installation) to install smp in yo
 - MacOS
 - Linux
 
-<!-- TOC section. Update when adding sections and subsections fitted in TOC. -->
-## **Table of Contents**
-
-- [**Features**](#features)
-    - [Supported OSes](#supported-oses)
-- [**Table of Contents**](#table-of-contents)
-- [**Usage**](#usage)
-- [**Getting Started**](#getting-started)
-    - [**Prerequisites**](#prerequisites)
-    - [**Setup**](#setup)
-- [**Contributions**](#contributions)
-- [**Known Issues and Limitations**](#known-issues-and-limitations)
-- [**Future of this project**](#future-of-this-project)
-- [**License**](#license)
-- [**Credits**](#credits)
-    - [Thank you](#thank-you)
-    - [MIT Logo](#mit-logo)
-    - [Icons](#icons)
-
 <!-- Mention examples of application of this repository. -->
 ## **Usage**
 
 Before using this project, it is recommended to visit [license](license) and [terms of usage & disclaimer](tou_disc) for the terms of usage, disclaimer, and legals.
 
 ```bash
-tc -h
+smp -h
 ```
 
 Cutting:
 
 ```bash
-tc cut [OPTIONS]
+smp cut [OPTIONS]
 ```
 
 For programmatic use, visit the documentation: [smp.hyaku.download/docs](https://smp.hyaku.download/docs/0/0)

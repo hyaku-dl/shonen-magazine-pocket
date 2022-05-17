@@ -1,8 +1,8 @@
-site_name: ura
-site_url: https://ura.hyaku.download
-repo_url: https://github.com/hyaku-dl/urasunday
+site_name: smp
+site_url: https://smp.hyaku.download
+repo_url: https://github.com/hyaku-dl/shonen-magazine-pocket
 site_description: |-
-  Your basic urasunday scraper
+  A Basic Shonen Magazine Pocket Scraper
 site_author: whi~nyaan!
 copyright: Copyright &copy; 2022 whitespace_negative
 
@@ -75,6 +75,35 @@ plugins:
 
 nav:
   - Home: /
+
+  # Do Not Modify!
+  - Installation:
+  # nav inst start
+    - Index: docs/0/0/installation/
+    - Installable:
+      - Index: docs/0/0/installation/installable
+      - Windows 7 and up: docs/0/0/installation/installable/windows
+      - Linux:
+        - Index: docs/0/0/installation/installable/linux/
+        - Arch: docs/0/0/installation/portable/linux/arch/
+        - Debian: docs/0/0/installation/portable/linux/debian/
+    - Portable:
+      - Index: docs/0/0/installation/portable
+      - Windows 7 and up: docs/0/0/installation/portable/windows
+      - Linux:
+        - Index: docs/0/0/installation/portable/linux/
+        - Arch: docs/0/0/installation/portable/linux/arch/
+        - Debian: docs/0/0/installation/portable/linux/debian/
+    - Programmatic:
+      - Index: docs/0/0/installation/programmatic
+      - Windows 7 and up: docs/0/0/installation/programmatic/windows
+      - MacOS: docs/0/0/installation/programmatic/macos
+      - Linux:
+        - Index: docs/0/0/installation/programmatic/linux/
+        - Arch: docs/0/0/installation/programmatic/linux/arch/
+        - Debian: docs/0/0/installation/programmatic/linux/debian/
+  # nav inst end
+
   - License agreement: /license
   - Changelog: /changelog
   - Notes:
