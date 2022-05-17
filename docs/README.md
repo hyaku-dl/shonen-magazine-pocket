@@ -129,7 +129,7 @@ Check the [license](license) for more details.
 
 ### Thank you
 
-- To <a target="_blank" href="https://discord.com/users/218119227142438914">small san(Discord, 逢坂#6021)</a for commisioning this project.
+- To <a target="_blank" href="https://discord.com/users/218119227142438914">small san(Discord, 逢坂#6021)</a> for commisioning this project.
 
 ### MIT Logo
 

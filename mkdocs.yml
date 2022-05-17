@@ -79,29 +79,29 @@ nav:
   # Do Not Modify!
   - Installation:
   # nav inst start
-    - Index: docs/0/0/installation/
+    - Index: docs/0/0/installation/index.html
     - Installable:
-      - Index: docs/0/0/installation/installable
-      - Windows 7 and up: docs/0/0/installation/installable/windows
+      - Index: docs/0/0/installation/installable/index.html
+      - Windows 7 and up: docs/0/0/installation/installable/windows/index.html
       - Linux:
-        - Index: docs/0/0/installation/installable/linux/
-        - Arch: docs/0/0/installation/portable/linux/arch/
-        - Debian: docs/0/0/installation/portable/linux/debian/
+        - Index: docs/0/0/installation/installable/linux/index.html
+        - Arch: docs/0/0/installation/portable/linux/arch/index.html
+        - Debian: docs/0/0/installation/portable/linux/debian/index.html
     - Portable:
-      - Index: docs/0/0/installation/portable
-      - Windows 7 and up: docs/0/0/installation/portable/windows
+      - Index: docs/0/0/installation/portable/index.html
+      - Windows 7 and up: docs/0/0/installation/portable/windows/index.html
       - Linux:
-        - Index: docs/0/0/installation/portable/linux/
-        - Arch: docs/0/0/installation/portable/linux/arch/
-        - Debian: docs/0/0/installation/portable/linux/debian/
+        - Index: docs/0/0/installation/portable/linux/index.html
+        - Arch: docs/0/0/installation/portable/linux/arch/index.html
+        - Debian: docs/0/0/installation/portable/linux/debian/index.html
     - Programmatic:
-      - Index: docs/0/0/installation/programmatic
-      - Windows 7 and up: docs/0/0/installation/programmatic/windows
-      - MacOS: docs/0/0/installation/programmatic/macos
+      - Index: docs/0/0/installation/programmatic/index.html
+      - Windows 7 and up: docs/0/0/installation/programmatic/windows/index.html
+      - MacOS: docs/0/0/installation/programmatic/macos/index.html
       - Linux:
-        - Index: docs/0/0/installation/programmatic/linux/
-        - Arch: docs/0/0/installation/programmatic/linux/arch/
-        - Debian: docs/0/0/installation/programmatic/linux/debian/
+        - Index: docs/0/0/installation/programmatic/linux/index.html
+        - Arch: docs/0/0/installation/programmatic/linux/arch/index.html
+        - Debian: docs/0/0/installation/programmatic/linux/debian/index.html
   # nav inst end
 
   - License agreement: /license
@@ -113,5 +113,5 @@ nav:
   # Do Not Modify!
   - Documentation:
   # nav docs start
-    - 0.0 (Current): docs/0/0/
+    - 0.0 (Current): docs/0/0/index.html
   # nav docs end

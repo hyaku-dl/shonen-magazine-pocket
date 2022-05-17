@@ -6,3 +6,5 @@ mkdocs-minify-plugin
 mkdocs-redirects
 pdoc3
 python-frontmatter
+
+twine

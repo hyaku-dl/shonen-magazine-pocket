@@ -16,28 +16,30 @@ from smp import vls
 from .settings import stg, wr_stg
 from .utils import ddir, inmd, repl, stg
 
+v_ud = '/'.join([str(i) for i in vls[0:2]])
+
 INST_LS = [
     {
-        "Index": f"docs/{'/'.join([str(i) for i in vls[0:2]])}/installation/"
+        "Index": f"docs/{v_ud}/installation/index.html"
     },
     {
         "Installable": [
             {
-                "Index": f"docs/{'/'.join([str(i) for i in vls[0:2]])}/installation/installable"
+                "Index": f"docs/{v_ud}/installation/installable/index.html"
             },
             {
-                "Windows 7 and up": f"docs/{'/'.join([str(i) for i in vls[0:2]])}/installation/installable/windows"
+                "Windows 7 and up": f"docs/{v_ud}/installation/installable/windows/index.html"
             },
             {
                 "Linux": [
                     {
-                        "Index": f"docs/{'/'.join([str(i) for i in vls[0:2]])}/installation/installable/linux/"
+                        "Index": f"docs/{v_ud}/installation/installable/linux/index.html"
                     },
                     {
-                        "Arch": f"docs/{'/'.join([str(i) for i in vls[0:2]])}/installation/portable/linux/arch/"
+                        "Arch": f"docs/{v_ud}/installation/portable/linux/arch/index.html"
                     },
                     {
-                        "Debian": f"docs/{'/'.join([str(i) for i in vls[0:2]])}/installation/portable/linux/debian/"
+                        "Debian": f"docs/{v_ud}/installation/portable/linux/debian/index.html"
                     }
                 ]
             }
@@ -46,21 +48,21 @@ INST_LS = [
     {
         "Portable": [
             {
-                "Index": f"docs/{'/'.join([str(i) for i in vls[0:2]])}/installation/portable"
+                "Index": f"docs/{v_ud}/installation/portable/index.html"
             },
             {
-                "Windows 7 and up": f"docs/{'/'.join([str(i) for i in vls[0:2]])}/installation/portable/windows"
+                "Windows 7 and up": f"docs/{v_ud}/installation/portable/windows/index.html"
             },
             {
                 "Linux": [
                     {
-                        "Index": f"docs/{'/'.join([str(i) for i in vls[0:2]])}/installation/portable/linux/"
+                        "Index": f"docs/{v_ud}/installation/portable/linux/index.html"
                     },
                     {
-                        "Arch": f"docs/{'/'.join([str(i) for i in vls[0:2]])}/installation/portable/linux/arch/"
+                        "Arch": f"docs/{v_ud}/installation/portable/linux/arch/index.html"
                     },
                     {
-                        "Debian": f"docs/{'/'.join([str(i) for i in vls[0:2]])}/installation/portable/linux/debian/"
+                        "Debian": f"docs/{v_ud}/installation/portable/linux/debian/index.html"
                     }
                 ]
             }
@@ -69,24 +71,24 @@ INST_LS = [
     {
         "Programmatic": [
             {
-                "Index": f"docs/{'/'.join([str(i) for i in vls[0:2]])}/installation/programmatic"
+                "Index": f"docs/{v_ud}/installation/programmatic/index.html"
             },
             {
-                "Windows 7 and up": f"docs/{'/'.join([str(i) for i in vls[0:2]])}/installation/programmatic/windows"
+                "Windows 7 and up": f"docs/{v_ud}/installation/programmatic/windows/index.html"
             },
             {
-                "MacOS": f"docs/{'/'.join([str(i) for i in vls[0:2]])}/installation/programmatic/macos"
+                "MacOS": f"docs/{v_ud}/installation/programmatic/macos/index.html"
             },
             {
                 "Linux": [
                     {
-                        "Index": f"docs/{'/'.join([str(i) for i in vls[0:2]])}/installation/programmatic/linux/"
+                        "Index": f"docs/{v_ud}/installation/programmatic/linux/index.html"
                     },
                     {
-                        "Arch": f"docs/{'/'.join([str(i) for i in vls[0:2]])}/installation/programmatic/linux/arch/"
+                        "Arch": f"docs/{v_ud}/installation/programmatic/linux/arch/index.html"
                     },
                     {
-                        "Debian": f"docs/{'/'.join([str(i) for i in vls[0:2]])}/installation/programmatic/linux/debian/"
+                        "Debian": f"docs/{v_ud}/installation/programmatic/linux/debian/index.html"
                     }
                 ]
             }
@@ -288,7 +290,7 @@ def main(rmv: Dict[Any, Any]={}, hr :bool=False):
         ndd = {}
         for u in listdir(base):
             for d in listdir(path.join(base, u)):
-                ndd[f"{u}.{d}"] = f"docs/{u}/{d}/"
+                ndd[f"{u}.{d}"] = f"docs/{u}/{d}/index.html"
 
         lk = list(ndd.keys())[-1]
         ndd[f'{lk} (Current)'] = ndd.pop(lk)

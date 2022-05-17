@@ -1,45 +1,45 @@
 generated:
   docs:
     files:
+    - docs/docs/0/0/installation/programmatic/linux/index.md
+    - docs/docs/0/0/config.md
+    - docs/docs/0/0/installation/installable/linux/index.md
+    - docs/README.md
+    - docs/docs/0/0/installation/installable/index.md
+    - docs/license.md
+    - docs/docs/0/0/installation/portable/index.md
+    - docs/docs/0/0/structure.md
+    - docs/docs/0/0/installation/portable/linux/index.md
+    - docs/notes.md
+    - docs/notes to self.md
+    - docs/docs/0/0/installation/programmatic/index.md
     - docs/docs/0/0/installation/index.md
     - docs/docs/0/0/setup.md
-    - docs/docs/0/0/installation/portable/linux/index.md
-    - docs/docs/0/0/structure.md
-    - docs/docs/0/0/config.md
-    - docs/docs/0/0/installation/installable/index.md
-    - docs/docs/0/0/installation/programmatic/linux/index.md
-    - docs/docs/0/0/installation/portable/index.md
-    - docs/docs/0/0/installation/installable/linux/index.md
-    - docs/notes to self.md
-    - docs/notes.md
-    - docs/README.md
-    - docs/docs/0/0/installation/programmatic/index.md
-    - docs/license.md
     folders: []
   mako:
     files:
-    - docs/docs/0/0/installation/programmatic/linux/debian.md
     - docs/docs/0/0/installation/installable/linux/arch.md
-    - docs/docs/0/0/installation/portable/linux/arch.md
-    - docs/docs/0/0/installation/installable/windows.md
-    - docs/docs/0/0/installation/installable/linux/debian.md
+    - docs/docs/0/0/installation/programmatic/linux/debian.md
+    - docs/docs/0/0/installation/programmatic/linux/arch.md
+    - docs/changelog.md
     - docs/docs/0/0/installation/programmatic/macos.md
+    - docs/docs/0/0/installation/installable/linux/debian.md
     - docs/docs/0/0/index.md
     - docs/docs/0/0/installation/portable/windows.md
     - docs/docs/0/0/installation/portable/linux/debian.md
-    - docs/docs/0/0/installation/programmatic/linux/arch.md
     - docs/docs/0/0/installation/programmatic/windows.md
-    - docs/changelog.md
+    - docs/docs/0/0/installation/installable/windows.md
+    - docs/docs/0/0/installation/portable/linux/arch.md
     folders: []
   pdoc:
     files:
-    - docs/docs/0/0/api/base.md
-    - docs/docs/0/0/api/download.md
-    - docs/docs/0/0/api/globals.md
-    - docs/docs/0/0/api/init.md
-    - docs/docs/0/0/api/style.md
-    - docs/docs/0/0/api/utils.md
-    - docs/docs/0/0/api/index.md
-    - docs/docs/0/0/api/cli.md
     - docs/docs/0/0/api/settings.md
+    - docs/docs/0/0/api/style.md
+    - docs/docs/0/0/api/init.md
+    - docs/docs/0/0/api/index.md
+    - docs/docs/0/0/api/globals.md
+    - docs/docs/0/0/api/utils.md
+    - docs/docs/0/0/api/download.md
+    - docs/docs/0/0/api/cli.md
+    - docs/docs/0/0/api/base.md
     folders: []
